@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621-usb-2"
+          - build_variant: "RM2100-eth2qos"
             targets: "RM2100"
     steps:
       - uses: actions/checkout@v2
